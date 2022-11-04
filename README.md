@@ -10,11 +10,6 @@ This Rails API offers three RESTful endpoints to a prospective front end, design
 To set up this repository on your local machine, please make sure you have Ruby version 2.7.4 and Rails 5.2.8 downloaded locally.  Next clone this repository to your local machine.  CD into the directory and run ` bundle install ` to install all gems and dependencies.  To launch a local server to ping the available endpoints via Postman or another API tool, enter `rails s` in your CLI. 
 
 <h3>Testing Instructions</h3>
-This project uses RSpec (rspec-rails gem) for its test suite, and SimpleCov for coverage.  This project has 100% test coverage.  Each end point has sad path testing, with error handling in my controllers for missing and/or bad parameters for each request.  
-<br>
-To run the test suite yourself, simply run `bundle exec rspec` in your CLI.
-<br>
-If you would like to import the Postman collection follow this link https://www.getpostman.com/collections/3c7451038bf1026e3a11
 
 <h3>Database / Schema </h3>
 I made the decision to make subscriptions the joins table between customers and teas.  I used the tea title and the frequency to create the title for the description.  I thought this would make things less complicated but if the decision was made to have pre-determined subscriptions for all teas in our database, creating a tea_subscription table would be a quick and painless change.  
