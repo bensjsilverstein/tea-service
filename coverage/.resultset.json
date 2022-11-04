@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/bensilverstein/turing/4module/class_work/tea_service/spec/requests/api/v1/destroy_subscription_spec.rb": {
+      "/Users/bensilverstein/turing/4module/class_work/tea_service/spec/requests/api/v1/customer_subscriptions_spec.rb": {
         "lines": [
           1,
           null,
@@ -9,33 +9,40 @@
           null,
           1,
           1,
-          1,
           null,
           1,
           1,
-          1,
-          1,
-          null,
-          1,
-          null,
           1,
           1,
           1,
           1,
           null,
           1,
-          1,
-          1,
+          0,
           null,
-          1,
-          1,
-          1,
+          0,
+          0,
+          0,
+          0,
           null,
-          1,
-          1,
-          1,
-          1,
+          0,
+          0,
           null,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
           null,
           null,
           null
@@ -320,7 +327,7 @@
           null,
           null,
           1,
-          2,
+          1,
           null,
           null,
           null,
@@ -390,69 +397,8 @@
           1,
           null
         ]
-      },
-      "/Users/bensilverstein/turing/4module/class_work/tea_service/app/controllers/api/v1/customers/subscriptions_controller.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          null,
-          0,
-          0,
-          null,
-          0,
-          null,
-          null,
-          null,
-          1,
-          null,
-          0,
-          0,
-          0,
-          0,
-          0,
-          null,
-          0,
-          null,
-          0,
-          0,
-          null,
-          null,
-          null,
-          1,
-          null,
-          1,
-          1,
-          1,
-          1,
-          1,
-          null,
-          0,
-          null,
-          0,
-          0,
-          null,
-          null,
-          null,
-          null
-        ]
-      },
-      "/Users/bensilverstein/turing/4module/class_work/tea_service/app/controllers/application_controller.rb": {
-        "lines": [
-          1,
-          null
-        ]
-      },
-      "/Users/bensilverstein/turing/4module/class_work/tea_service/app/serializers/subscription_serializer.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          null,
-          null
-        ]
       }
     },
-    "timestamp": 1667572888
+    "timestamp": 1667573187
   }
 }
