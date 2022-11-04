@@ -11,7 +11,7 @@ RSpec.describe 'Cancel Customer Subscription Endpoint' do
       tea_3 = Tea.create!(title: "Orange Blossom", description: "It's ORANGE.", temperature: 113, brew_time: "3 minutes")
       subscription = Subscription.create!(title: 'Green Tea Subscription', price: 49.98, status: 0, frequency: 0, customer_id: customer_1.id, tea_id: tea_1.id)
 
-      post '/api/v1/subscriptions/cancel', headers: headers, params:{ subscription_id: subscription.id, cancel: true }
+      patch '/api/v1/subscriptions/cancel', headers: headers, params:{ subscription_id: subscription.id, cancel: true }
 
       expect(response).to be_successful
       result = JSON.parse(response.body, symbolize_names: true)
