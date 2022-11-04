@@ -62,10 +62,10 @@ RSpec.describe 'Create a Subcscription Page' do
       expect(attributes[:status]).to eq("Active")
 
       expect(attributes).to have_key(:frequency)
-      expect(attributes[:frequency]).to eq("Monthly")
+      expect(attributes[:frequency]).to eq("Weekly")
 
       expect(attributes[:customer_id]).to eq(customer_1.id)
-      expect(attributes[:tea_id]).to eq(tea1.id)
+      expect(attributes[:tea_id]).to eq(tea_1.id)
     end
 
     it "fill out the form and am redirected to the index where the new discount is shown" do
