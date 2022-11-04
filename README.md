@@ -14,7 +14,7 @@ To set up this repository on your local machine, please make sure you have Ruby 
 <h3>Database / Schema </h3>
 I made the decision to make subscriptions the joins table between customers and teas.  I used the tea title and the frequency to create the title for the description.  I thought this would make things less complicated but if the decision was made to have pre-determined subscriptions for all teas in our database, creating a tea_subscription table would be a quick and painless change.  
 
-![tea subscription schema](https://user-images.githubusercontent.com/96802470/182982346-b26c49ed-9b8a-4a44-a1d8-693691aa653b.png)
+![Screen Shot 2022-11-04 at 9 54 00 AM](https://user-images.githubusercontent.com/102967531/200019970-78873e94-4e79-48df-974e-84d4708b5877.png)
 
 <h3>Available Endpoints</h3>
 
